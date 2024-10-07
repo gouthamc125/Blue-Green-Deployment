@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: gouthamc125/bankapplication:green # Adjust the image tag for the green version
+        image: gouthamc125/banktest:green # Adjust the image tag for the green version
         ports:
         - containerPort: 8080
         env:
