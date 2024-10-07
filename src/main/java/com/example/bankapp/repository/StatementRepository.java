@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StatementRepository extends JpaRepository<Statement, Long> {
-    // Custom query methods can be added if needed
+    List<Statement> findByAccountId(Long accountId);
 }
